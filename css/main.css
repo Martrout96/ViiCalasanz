@@ -1,4 +1,6 @@
-
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
 .headerLink {
     text-align: center;
 }
@@ -8,13 +10,13 @@
 }
 
 .logo{
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", sans-serif !important;
     font-size:22px;
     font-weight: bold;
 
 }
 .menu{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 15px;
     padding-top: 5px;
 }
@@ -24,13 +26,9 @@
     font-weight:bold;
 }
 
-
-
 .sideBorder {
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-left-style: solid;
-    border-left-width: 1px;
+    border-right: 1px solid;
+    border-left: 1px solid;
 }
 body {
     padding-top: 2px;
@@ -45,7 +43,7 @@ body {
 }
 
 .text {
-    color: black;
+    color: black ;
 }
 
 .img-fluid{
@@ -60,7 +58,7 @@ body {
     background-position: top;
 }
 .text-uppercase{
-    font-family: "Rock Salt";
+    font-family: "Rock Salt", sans-serif !important;
     padding-top: 100px;
     font-weight: 700;
     font-size: 100px;
@@ -72,4 +70,53 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 
+}
+
+.floating-container-main{
+    position: relative;
+    background-color: #ffffff;
+    border-color: #000;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.3);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 100px !important;
+}
+
+.floating-container{
+    position: relative;
+    background-color: #ffffff;
+    border-color: #000;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.3);
+    margin-top: 150px !important;
+
+}
+
+
+
+h3{
+    font-family: 'Raleway', sans-serif !important;
+    color: #000 !important;
+    font-size: 50px !important;
+}
+
+
+.card{
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-right: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer{
+    background-color: #005cbf;
+    height: 100px;
+}
+table{
+    margin :50px !important;
+    position: relative;
+    align: center !important;
+
+}
+tr{
+    margin: 20px !important;
 }
