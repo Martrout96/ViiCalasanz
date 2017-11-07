@@ -1,4 +1,6 @@
-
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
 .headerLink {
     text-align: center;
 }
@@ -27,10 +29,8 @@
 
 
 .sideBorder {
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-left-style: solid;
-    border-left-width: 1px;
+    border-right: 1px solid;
+    border-left: 1px solid;
 }
 body {
     padding-top: 2px;
