@@ -3,8 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+    <div id="header"></div>
+    <div class="background" style="background-image:url('../picture/Grandes montanas verdes-67919.jpg') "> </div>
+    <div class="container mt-5 pt-5 mt-md-0">
+        <div class="floating-container mt-5 pt-3 pb-3 mb-5">
+            <h3 class="px-4 mt-3 mt-md-0">Contacto:</h3>
+            <div class="row col-md-12 ml-5">
+                <div class="col-md-7">
+                    <div class="row col-md-8">
+                       <div class="col-md-10">
+                           <p class="formulario">Nombre:*</p>
+                           <input type="text" id="nombreBox">
+                       </div>
+                        <div class="col-md-1">
+                            <p class="formulario">Telefono:*</p>
+                            <input type="text" id="telfBox">
+                        </div>
+                    </div>
+                    <div class="row col-md-8">
+                        <div class="col-md-10">
+                            <p class="formulario">Email:*</p>
+                            <input type="email" id="emailBox">
+                        </div>
+                        <div class="col-md-1">
+                            <p class="formulario">Asunto:*</p>
+                            <input type="text" id="asuntoBox">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <p class="formulario">Mensaje*</p>
+                    <textarea class="form-control" id="mensajeBox"></textarea>
+                </div>
+
+            </div>
+            <div class="row col-md-12 ml-5 mt-3 mr-5">
+                <div class="col-md-2 ml-auto">
+                    <button class="button-red">ENVIAR</button>
+                </div>
+                <div class="col-md-1"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer" style="background-color: #00002B"></div>
+
+    <script src="../js/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     --><script src="../js/bootstrap.js"></script>
+    <script src="../js/popper.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+        });
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
 
 </body>
 </html>

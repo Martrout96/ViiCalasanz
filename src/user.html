@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administracion</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <div id="header"></div>
+    <div class="container">
+        <div class="floating-container-user mt-4">
+            <h3 class="px-4 mt-3 mt-md-0">Informacion:</h3>
+            <div class="row col-md-12 ml-3 mb-5" >
+                <div class="col-md-6" style="padding-left: 100px">
+                    <p class="formulario">Email</p>
+                    <input type="email" id="emailGrupo">
+                    <p class="formulario">Direccion</p>
+                    <input type="text" id="direccionGrupo">
+                    <p class="formulario">Nombre de direccion</p>
+                    <input type="text" id="nombreDireccion">
+                    <p class="formulario">Telefono</p>
+                    <input type="number" id="telfGrupo">
+                    <p class="formulario">Fax</p>
+                    <input type="number" id="faxGrupo">
+                </div>
+                <div class="col-md-4">
+                    <p>Logo</p>
+                    <img class="mb-4" src="../picture/CAMISA%20CONSJEO.jpg" style="width: 80%">
+                </div>
+            </div>
+        </div>
+        <div class="floating-container-user mt-4">
+            <div class="pb-3">
+                <h3 class="px-4 mt-3 mt-md-0">Descripcion Consejo:</h3>
+                <div class="mx-4 mb-3">
+                    <textarea class="form-control"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <div class="floating-container-user mt-4">
+            <div class="pb-3">
+                <h3 class="px-4 mt-3 mt-md-0">Historia de Grupo:</h3>
+                <div class="mx-4 mb-3">
+                    <textarea class="form-control"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <div class="row col-md-12">
+            <div class="col-md-2 ml-auto mt-3 mb-2">
+                <button class="button-red">GUARDAR</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+    <script src="../js/jquery.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     --><script src="../js/bootstrap.js"></script>
+    <script src="../js/popper.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+        });
+    </script>
+</body>
+</html>

@@ -9,6 +9,31 @@
     margin-bottom:5px;
 }
 
+.footer-menu{
+    color: #ffffff;
+    padding-top: 25px;
+}
+footer{
+    background-color: #00002B !important;
+    padding-bottom: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-picture{
+    color: #ffffff;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.footer-text{
+    margin-bottom: 0px !important;
+    margin-top: 1px !important;
+}
+.image-footer{
+    text-align: center;
+    alignment: center;
+}
+
+
 .logo{
     font-family: "Rock Salt", sans-serif !important;
     font-size:22px;
@@ -119,4 +144,30 @@ table{
 }
 tr{
     margin: 20px !important;
+}
+.button-red{
+    border-radius: 0 !important;
+    background-color:#FDEDEC;
+    border-color: #990000;
+    color: #990000;
+    font-weight: bold;
+    width:100% !important;
+    border-style:solid !important;
+    border-width:3px !important;
+}
+
+.logIn{
+    alignment: center;
+    text-align: center;
+}
+.floating-container-user{
+    position: relative;
+    background-color: #ffffff;
+    border-color: #000;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,.3);
+}
+
+p.formulario{
+    margin-bottom: 0px !important;
+    margin-top: 15px !important;
 }
